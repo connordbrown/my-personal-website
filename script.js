@@ -11,4 +11,10 @@ button[1].addEventListener("click", (event) => {
 });
 button[2].addEventListener("click", (event) => {
     alert("You clicked another button!");
+    if (document.body.style.background === "tan") {
+        document.body.style.background = "gray";
+    }
+    else {
+        document.body.style.background = "tan";
+    }
 });
